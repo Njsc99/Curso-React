@@ -1,5 +1,6 @@
 import './App.css'
 import NavBar from './components/NavBar.jsx'
+import ItemListContainer from './components/ItemListContainer.jsx';
 
 function App() {
   
@@ -8,10 +9,7 @@ function App() {
   return (
     <div className="app-container">
       <NavBar />
-      <header className="App-header">
-        <h1>Welcome to My React App</h1>
-        <p>{saludo}</p>
-      </header>
+      <ItemListContainer saludo = { "Bienvenido a mi ecomerce "}/>
     </div>
   ) 
 }
