@@ -1,28 +1,20 @@
-import { useEffect, useState } from "react";
-import getProducts from "../../data/products.js";
-import Item from "../Item/Item.jsx";
+import useProducts from "../../hooks/useProducts.js";
+import "./ItemListContainer.css";
+import ItemList from "../ItemList/ItemList";
+import Item from "../Item/Item";
+import Loading from "../Loading/Loading";
+
 const ItemListContainer = (props) => {
 
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-
-    getProducts()
-      .then((data)=> {
-        setProducts(data);
-      })
-
-  }, []);
+  const { products, loading } = useProducts();
 
   return (
-    <div>
-        <h2> {props.saludo} </h2>
+      <div className="item-list-header">
+        <h1>{props.saludo}</h1>
         {
-          products.map((product)=> (
-            <Item product = {product} key ={product.id} />  
-          ))
+          loading ? <Loading /> : <ItemList products={products} />         
         }
-    </div>
+      </div>
   )
 }
 

@@ -1,3 +1,4 @@
+
 const products = [
     {
         id: 1,
@@ -6,7 +7,7 @@ const products = [
         description: "Bolsa de 15kg de alimento balanceado para perros adultos.",
         price: 25000,
         stock: 20,
-        image: "alimento-perro.jpg"
+        image: "/img/alimento-perro.jpg"
     },
     {
         id: 2,
@@ -15,7 +16,7 @@ const products = [
         description: "Rascador de sisal para gatos, tamaño mediano.",
         price: 12000,
         stock: 15,
-        image: "rascador-gato.jpg"
+        image: "/img/rascador-gato.jpg"
     },
     {
         id: 3,
@@ -24,7 +25,7 @@ const products = [
         description: "Collar antipulgas para perros y gatos, duración 8 meses.",
         price: 8000,
         stock: 30,
-        image: "collar-antipulgas.jpg"
+        image: "/img/collar-antipulgas.jpg"
     },
     {
         id: 4,
@@ -33,7 +34,7 @@ const products = [
         description: "Juguete de goma resistente para perros medianos.",
         price: 3500,
         stock: 25,
-        image: "juguete-mordedor.jpg"
+        image: "/img/juguete-mordedor.jpg"
     },
     {
         id: 5,
@@ -42,7 +43,7 @@ const products = [
         description: "Bolsa de 10kg de arena sanitaria aglutinante.",
         price: 7000,
         stock: 18,
-        image: "arena-gato.jpg"
+        image: "/img/arena-gato.jpg"
     }
 ];
 
