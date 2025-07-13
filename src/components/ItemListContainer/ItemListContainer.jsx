@@ -1,6 +1,6 @@
 import useProducts from "../../hooks/useProducts.js";
 import "./ItemListContainer.css";
-import ItemList from "../ItemList/ItemList";
+import { ItemList } from "../ItemList/ItemList";
 import Item from "../Item/Item";
 import Loading from "../Loading/Loading";
 

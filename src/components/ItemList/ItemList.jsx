@@ -1,5 +1,7 @@
 import Item from '../Item/Item';
 import './ItemList.css';
+import hocFilterProducts from '../../hoc/hocFilterProducts';
+
 const ItemList = ( {products} ) => {
     return (
         <div className="item-list-container">
@@ -12,4 +14,7 @@ const ItemList = ( {products} ) => {
   )
 }
 
-export default ItemList
+const ItemListWithSearch = hocFilterProducts(ItemList);
+export { ItemList, ItemListWithSearch };
+
+//export default ItemList
