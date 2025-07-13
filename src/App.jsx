@@ -1,6 +1,7 @@
 import './App.css'
-import NavBar from './components/NavBar.jsx'
-import ItemListContainer from './components/ItemListContainer.jsx';
+import NavBar from './components/NavBar/NavBar.jsx'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer.jsx';
+import EjemploContador from './components/ejemplos/EjemploContador.jsx';
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
     <div className="app-container">
       <NavBar />
       <ItemListContainer saludo = { "Bienvenido a mi ecomerce "}/>
+      <EjemploContador />
     </div>
   ) 
 }

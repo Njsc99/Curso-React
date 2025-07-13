@@ -26,6 +26,11 @@
   gap: 20px;
 }
 
+.nav-list li {
+  display: inline;
+  color: white;
+}
+
 .cart-widget {
   position: relative;
   display: flex;;
