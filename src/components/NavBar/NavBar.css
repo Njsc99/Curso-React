@@ -27,9 +27,15 @@
   gap: 20px;
 }
 
-.nav-list li {
+.nav-list .nav-list {
   display: inline;
   color: white;
+  text-decoration: none;
+}
+
+.nav-list .nav-list:hover {
+  color: #61dafb;
+  text-decoration: underline;
 }
 
 .cart-widget {

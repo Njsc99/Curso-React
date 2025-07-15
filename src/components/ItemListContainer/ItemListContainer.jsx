@@ -3,10 +3,11 @@ import "./ItemListContainer.css";
 import { ItemList } from "../ItemList/ItemList";
 import Item from "../Item/Item";
 import Loading from "../Loading/Loading";
+import { useParams } from "react-router-dom";
 
 const ItemListContainer = (props) => {
-
-  const { products, loading } = useProducts();
+  const { category } = useParams();
+  const { products, loading } = useProducts(category);
 
   return (
       <div className="item-list-header">
