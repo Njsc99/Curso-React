@@ -1,8 +1,7 @@
-
 const products = [
     {
         id: 1,
-        name: "Alimento para Perro Adulto",
+        name: "MasterDog",
         category: "Alimentos",
         description: "Bolsa de 15kg de alimento balanceado para perros adultos.",
         price: 25000,
@@ -11,7 +10,7 @@ const products = [
     },
     {
         id: 2,
-        name: "Rascador para Gatos",
+        name: "MasterCat",
         category: "Accesorios",
         description: "Rascador de sisal para gatos, tamaño mediano.",
         price: 12000,
@@ -20,7 +19,7 @@ const products = [
     },
     {
         id: 3,
-        name: "Collar Antipulgas",
+        name: "Bayer",
         category: "Cuidados",
         description: "Collar antipulgas para perros y gatos, duración 8 meses.",
         price: 8000,
@@ -29,7 +28,7 @@ const products = [
     },
     {
         id: 4,
-        name: "Juguete Mordedor",
+        name: "Kong",
         category: "Juguetes",
         description: "Juguete de goma resistente para perros medianos.",
         price: 3500,
@@ -38,7 +37,7 @@ const products = [
     },
     {
         id: 5,
-        name: "Arena Sanitaria para Gatos",
+        name: "Sanicat",
         category: "Higiene",
         description: "Bolsa de 10kg de arena sanitaria aglutinante.",
         price: 7000,
