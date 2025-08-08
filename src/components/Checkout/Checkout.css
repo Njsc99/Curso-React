@@ -1,0 +1,85 @@
+.checkout-form {
+    max-width: 400px;
+    margin: 32px auto;
+    padding: 32px 28px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(60,60,60,0.10), 0 1.5px 4px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.checkout-form h2 {
+    text-align: center;
+    color: #1a8917;
+    margin-bottom: 18px;
+    font-size: 1.5em;
+}
+
+.checkout-form div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.label,
+.content-input {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.checkout-form input {
+    padding: 8px 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    font-size: 1em;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.checkout-form input:focus {
+    border: 1.5px solid #1a8917;
+    background: #f6fff7;
+}
+
+.Button-send {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 12px;
+    transition: background 0.2s;
+    box-shadow: 0 1px 4px rgba(40,167,69,0.08);
+}
+
+.Button-send:hover {
+    background-color: #218838;
+}
+
+.checkout-form-container h2 {
+    text-align: center;
+    color: #1a8917;
+    margin-bottom: 18px;
+    font-size: 1.5em;
+}
+
+.order-confirmation {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #1a8917;
+}
+
+.order-confirmation h2 {
+    margin-bottom: 10px;
+}
+
+.order-confirmation p {
+    margin: 5px 0;
+}
