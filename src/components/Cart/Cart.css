@@ -100,3 +100,16 @@
 .info-cart a:hover {
     background: #218838;
 }
+
+.volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #1a8917;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background 0.2s;
+}

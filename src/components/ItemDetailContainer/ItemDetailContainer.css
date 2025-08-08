@@ -1,0 +1,25 @@
+.error {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.error h2 {
+    color: #e53935;
+    margin-bottom: 18px;
+}
+
+.error button {
+    margin-top: 18px;
+    padding: 12px 28px;
+    background: #1a8917;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.error button:hover {
+    background: #166c13;
+}

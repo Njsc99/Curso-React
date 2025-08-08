@@ -5,6 +5,16 @@ import { Link } from 'react-router-dom';
 
 const Cart = () => {
     const { cart, totalPrice, deleteProductById } = useContext(CartContext);
+
+    if (cart.length === 0) {
+        return (
+            <div className='cart-container'>
+                <h1>El carrito está vacío</h1>
+                <Link class="volver" to="/">Volver a la tienda</Link>
+            </div>
+        );
+    }
+        
   return (
     <div className='cart-container'>
         <h1>Productos en el Carrito</h1>
