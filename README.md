@@ -36,7 +36,7 @@ El sitio está desarrollado con React y utiliza Firebase para la gestión de ór
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/Njsc99/Curso-React.git
+   git clone https://github.com/Njsc99/ProyectoFinalSaez.git
    ```
 
 2. Ingresa a la carpeta del proyecto:
