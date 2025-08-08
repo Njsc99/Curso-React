@@ -1,4 +1,3 @@
-import React from 'react'
 import useProduct from '../../hooks/useProduct.js';
 import Loading from '../Loading/Loading';
 import { ItemList } from '../ItemList/ItemList';

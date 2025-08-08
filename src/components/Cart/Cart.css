@@ -1,12 +1,102 @@
-.cart-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
+.cart-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 32px 24px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(60,60,60,0.10), 0 1.5px 4px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.cart-container h1 {
+    color: #1a8917;
+    margin-bottom: 24px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    padding: 18px 24px;
+    margin-bottom: 18px;
+    width: 100%;
+    box-shadow: 0 1px 6px rgba(60,60,60,0.06);
+}
+
 .cart-item img {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.cart-item h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    color: #222;
+    min-width: 120px;
+}
+
+.cart-item p {
+    margin: 0 10px 0 0;
+    color: #444;
+    font-size: 1em;
+}
+
+.cart-item button {
+    background: #e53935;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: auto;
+    transition: background 0.2s;
+}
+
+.cart-item button:hover {
+    background: #b71c1c;
+}
+
+.info-cart {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.info-cart p {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #1a8917;
+    margin: 0;
+}
+
+.info-cart a {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.info-cart a:hover {
+    background: #218838;
 }

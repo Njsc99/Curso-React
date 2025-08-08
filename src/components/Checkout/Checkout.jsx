@@ -12,7 +12,7 @@ const Checkout = () => {
         phone: ''
     });
     const [ orderId, setOrderId ] = useState(null);
-    const { cart, totalPrice } = useContext(CartContext);
+    const { cart, totalPrice, clearCart } = useContext(CartContext);
 
     const handleChangeInput = (event) => {
         setDataForm( { ...dataForm, [event.target.name] : event.target.value } );
@@ -30,12 +30,14 @@ const Checkout = () => {
         uploadOrder(order);
     }
 
+
     const uploadOrder = async (order) => {
         try {
             const orderRef = collection(db, "orders");
             const response = await addDoc(orderRef, order);
             
             setOrderId(response.id);
+            clearCart();
         } catch (error) {
             console.error("Error al subir order: ", error);
         }

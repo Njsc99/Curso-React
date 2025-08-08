@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { getProducts } from "../data/products.js";
 import { collection, getDocs, query, where} from "firebase/firestore";
 import db from "../db/db.js";
 const useProducts = (category) => {
@@ -38,11 +37,13 @@ const useProducts = (category) => {
     }
 
 
-    useEffect(() => {
-
+useEffect(() => {
+    if (category) {
+        getProductsByCategory();
+    } else {
         getProducts();
-
-    }, [category]);
+    }
+}, [category]);
 
     return { products, loading };
 }

@@ -1,0 +1,49 @@
+.item-count-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 18px;
+    justify-content: center;
+}
+
+.item-count-btn {
+    background-color: #1a8917;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-weight: 600;
+}
+
+.item-count-btn:disabled {
+    background: #bdbdbd;
+    cursor: not-allowed;
+}
+
+.item-count-value {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #222;
+    min-width: 32px;
+    text-align: center;
+}
+
+.item-count-add-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.item-count-add-btn:hover {
+    background-color: #218838;
+}

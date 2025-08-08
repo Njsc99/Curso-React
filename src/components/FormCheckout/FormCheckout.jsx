@@ -1,4 +1,3 @@
-import React from 'react'
 
 const FormCheckout = ( {dataForm, handleChangeInput, sendOrder} ) => {
   return (

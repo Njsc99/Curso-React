@@ -1,7 +1,6 @@
 import './App.css'
 import NavBar from './components/NavBar/NavBar.jsx'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer.jsx';
-import EjemploContador from './components/ejemplos/EjemploContador.jsx';
 import { ItemListWithSearch } from './components/ItemList/ItemList';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
