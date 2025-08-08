@@ -41,7 +41,7 @@ El sitio está desarrollado con React y utiliza Firebase para la gestión de ór
 
 2. Ingresa a la carpeta del proyecto:
    ```bash
-   cd curso-react
+   cd ProyectoFinalSaez
    ```
 
 3. Instala las dependencias:
